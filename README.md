@@ -10,7 +10,8 @@ Integrate a trained machine learning model (Random Forest Regressor) for real-ti
 Provide a clean and visually appealing design, along with links to my professional profiles (LinkedIn and GitHub).
 
 ## 📝 Description
-This project is a web-based house price prediction application where users can input features such as the living area, number of bedrooms, bathrooms, kitchen quality, and overall condition of the house. The app predicts the price of the house based on a machine learning model trained on historical housing data
+* This project is a web-based house price prediction application where users can input features such as the living area, number of bedrooms, bathrooms, kitchen quality, and overall condition of the house. The app predicts the price of the house based on a machine learning model trained on historical housing data.
+* Deployed model on Flask server and also on Streamlit.
 
 ## 📸 **Screenshots**
 ### Home Page
@@ -40,11 +41,11 @@ I chose this project because the real estate industry is a dynamic and data-driv
 
 
 ## 🛠️ Technologies Used
-* Backend: Flask, Python
-* Frontend: HTML, CSS
-* Machine Learning Model: Random Forest Regressor (Trained using scikit-learn)
+* Backend: Flask, Python Programming
+* Frontend: HTML, CSS and Javascript
+* Machine Learning Model: Linear Regression (Trained using scikit-learn)
 * Database: SQLite for future enhancements
-* IDE: Visual Studio Code
+* IDE: Visual Studio Code and Jupyter notebook
 
 
 ## Developer Information
