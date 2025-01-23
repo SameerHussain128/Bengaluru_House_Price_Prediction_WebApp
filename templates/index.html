@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengaluru House Price Predictor</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="static/house1.jpeg" alt="House Image 1">
+            <img src="static/house2.jpeg" alt="House Image 2">
+        </div>
+        <div class="form-section">
+            <header>
+                <h1>Bengaluru House Price Predictor</h1>
+            </header>
+            <form id="prediction-form">
+                <div class="form-group">
+                    <label for="total_sqft">Total Square Feet</label>
+                    <input type="number" id="total_sqft" name="total_sqft" required min="100">
+                </div>
+                <div class="form-group">
+                    <label for="bath">Number of Bathrooms</label>
+                    <input type="number" id="bath" name="bath" required min="1" max="10">
+                </div>
+                <div class="form-group">
+                    <label for="bhk">BHK (Bedrooms)</label>
+                    <input type="number" id="bhk" name="bhk" required min="1" max="10">
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <select id="location" name="location" required>
+                        {% for loc in locations %}
+                        <option value="{{ loc }}">{{ loc }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button type="submit" class="btn">Predict Price</button>
+            </form>
+            <div id="result" class="result-container"></div>
+            <div class="developer-info">
+                <p><strong><em>Developed by: Mohd Sameer Hussain</em></strong></p>
+                <p><strong><em>Email: mohdsameerhussain28@gmail.com</em></strong></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mohdsameer28" target="_blank" class="social-link linkedin">
+                        <img src="static/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/SameerHussain128" target="_blank" class="social-link github">
+                        <img src="static/github.png" alt="GitHub">
+                    </a>
+                </div>
+                <p><strong><em>Contact/WhatsApp: 6303452296</em></strong></p>
+            </div>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
