@@ -15,16 +15,16 @@ Provide a clean and visually appealing design, along with links to my profession
 
 ## 📸 **Screenshots**
 ### Home Page
-![Home Page](screenshots/house.png)
+![Home Page](screenshot/house.png)
 
 ### Input Form
-![Input Form](screenshots/houseval.png)
+![Input Form](screenshot/houseval.png)
 
 ### Prediction Result
-![Prediction Result](screenshots/housepred.png)
+![Prediction Result](screenshot/housepred.png)
 
 ### Streamlit Result
-![Streamlit Result](screenshots/housest.png)
+![Streamlit Result](screenshot/housest.png)
 
 
 ## Key Features:
