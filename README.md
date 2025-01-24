@@ -1,5 +1,5 @@
 # House-price-prediction-WebApp
-This project aims to build a machine learning model that predicts house prices based on various features such as lot area, street type, number of bedrooms, and more. For more details read readme.md
+This project aims to build a machine learning model that predicts house prices based on various features such as Sqft area, bedrooms hall kitchen, number of bathrooms, and location. For more details read readme.md
 
 ## 🚀 Goal
 The primary goal of this project is to develop a web application that predicts house prices based on user inputs using a pre-trained machine learning model.
@@ -10,7 +10,7 @@ Integrate a trained machine learning model (Random Forest Regressor) for real-ti
 Provide a clean and visually appealing design, along with links to my professional profiles (LinkedIn and GitHub).
 
 ## 📝 Description
-* This project is a web-based house price prediction application where users can input features such as the living area, number of bedrooms, bathrooms, kitchen quality, and overall condition of the house. The app predicts the price of the house based on a machine learning model trained on historical housing data.
+* This project is a web-based house price prediction application where users can input features such as the living area, number of bedrooms, bathrooms, kitchen, and location of the house. The app predicts the price of the house based on a machine learning model trained on historical housing data.
 * Deployed model on Flask server and also on Streamlit.
 
 ## 📸 **Screenshots**
